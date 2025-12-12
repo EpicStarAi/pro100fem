@@ -78,10 +78,10 @@ export function Hero() {
               size="lg" 
               variant="outline" 
               className="border-white/10 hover:bg-white/5 text-white h-12 px-8 rounded-full"
-              onClick={() => window.open('tel:+30638450259')}
+              onClick={() => window.open('tel:+380680387719')}
             >
               <Phone className="w-4 h-4 mr-2" />
-              +30638450259
+              +380680387719
             </Button>
             <Button 
               size="lg" 

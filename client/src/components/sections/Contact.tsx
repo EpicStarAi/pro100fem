@@ -37,8 +37,8 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground mb-1">{t.contact_phone_k}</div>
-                  <a href="tel:+30638450259" className="text-lg font-bold text-white hover:text-primary transition-colors">
-                    +30638450259
+                  <a href="tel:+380680387719" className="text-lg font-bold text-white hover:text-primary transition-colors">
+                    +380680387719
                   </a>
                 </div>
               </div>
@@ -69,7 +69,7 @@ export function Contact() {
             </div>
 
             <div className="flex gap-4 mt-10 pt-10 border-t border-white/5">
-              <Button className="flex-1 bg-white text-black hover:bg-white/90 font-bold" onClick={() => window.open('tel:+30638450259')}>
+              <Button className="flex-1 bg-white text-black hover:bg-white/90 font-bold" onClick={() => window.open('tel:+380680387719')}>
                 {t.contact_call}
               </Button>
               <Button className="flex-1 bg-[#2AABEE] hover:bg-[#2AABEE]/90 text-white font-bold" onClick={() => window.open('https://t.me/PRO100FEM')}>
