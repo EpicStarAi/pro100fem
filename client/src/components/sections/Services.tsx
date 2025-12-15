@@ -14,6 +14,7 @@ export function Services() {
     { title: t.svc4_t, desc: t.svc4_d, price: t.svc4_p },
     { title: t.svc5_t, desc: t.svc5_d, price: t.svc5_p },
     { title: t.svc6_t, desc: t.svc6_d, price: t.svc6_p },
+    { title: t.svc7_t, desc: t.svc7_d, price: t.svc7_p },
   ];
 
   const container = {

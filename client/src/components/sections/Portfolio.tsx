@@ -5,21 +5,23 @@ import { motion, AnimatePresence } from "framer-motion";
 import modernImg from "@assets/generated_images/modern_driveway_paving.png";
 import mixImg from "@assets/generated_images/mixed_color_garden_path_paving.png";
 import premiumImg from "@assets/generated_images/premium_luxury_patio_paving.png";
+import playgroundImg from "@assets/generated_images/modern_children_playground_paving.png";
 
-type Category = 'modern' | 'mix' | 'premium';
+type Category = 'modern' | 'mix' | 'premium' | 'playground';
 
 export function Portfolio() {
   const { mode, lang } = useStore();
   const t = translations[lang];
   const [activeTab, setActiveTab] = useState<Category>('modern');
 
-  const categories: Category[] = ['modern', 'mix', 'premium'];
+  const categories: Category[] = ['modern', 'mix', 'premium', 'playground'];
 
   // Mock data using the same images for demo, but in real app would use different ones
   const images = {
     modern: [modernImg, modernImg, modernImg, modernImg],
     mix: [mixImg, mixImg, mixImg, mixImg],
     premium: [premiumImg, premiumImg, premiumImg, premiumImg],
+    playground: [playgroundImg, playgroundImg, playgroundImg, playgroundImg],
   };
 
   return (

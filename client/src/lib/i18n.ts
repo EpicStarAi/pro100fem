@@ -61,9 +61,13 @@ export const translations = {
     svc6_t: "Благоустрій територій",
     svc6_d: "Комплексні роботи: основа, водовідвід, покриття, бордюри.",
     svc6_p: "Київська область",
+
+    svc7_t: "Дитячі майданчики",
+    svc7_d: "Безпечне гумове покриття, яскрава плитка, встановлення обладнання.",
+    svc7_p: "від 800 грн/м²",
     
     port_h2: "Портфоліо",
-    port_p: "Три категорії: Modern / Mix / Premium.",
+    port_p: "Чотири категорії: Modern / Mix / Premium / Playground.",
     
     calc_h2: "Калькулятор (орієнтир)",
     calc_p: "Рахуємо укладання + бордюр + люки. Точно — після заміру.",
@@ -164,9 +168,13 @@ export const translations = {
     svc6_t: "Landscaping",
     svc6_d: "Complex works: base, drainage, coating, curbs.",
     svc6_p: "Kyiv Region",
+
+    svc7_t: "Children's Playgrounds",
+    svc7_d: "Safe rubber coating, bright tiles, equipment installation.",
+    svc7_p: "from 800 UAH/m²",
     
     port_h2: "Portfolio",
-    port_p: "Three categories: Modern / Mix / Premium.",
+    port_p: "Four categories: Modern / Mix / Premium / Playground.",
     
     calc_h2: "Calculator (Estimate)",
     calc_p: "We calculate paving + curb + manholes. Exact price after measurement.",
