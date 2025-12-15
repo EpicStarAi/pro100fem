@@ -7,6 +7,17 @@ import mixImg from "@assets/generated_images/mixed_color_garden_path_paving.png"
 import premiumImg from "@assets/generated_images/premium_luxury_patio_paving.png";
 import playgroundImg from "@assets/generated_images/modern_children_playground_paving.png";
 
+// Real photos
+import photo1 from "@assets/IMG_20251215_132134_691_1765797721276.jpg";
+import photo2 from "@assets/IMG_20251215_132135_136_1765797721368.jpg";
+import photo3 from "@assets/IMG_20251215_132135_050_1765797721419.jpg";
+import photo4 from "@assets/IMG_20251215_132134_394_1765797721465.jpg";
+import photo5 from "@assets/IMG_20251215_132135_128_1765797721497.jpg";
+import photo6 from "@assets/IMG_20251215_132134_320_1765797721532.jpg";
+import photo7 from "@assets/IMG_20251215_132134_284_1765797721564.jpg";
+import photo8 from "@assets/IMG_20251215_132134_865_1765797721633.jpg";
+import photo9 from "@assets/IMG_20251215_132134_334_1765797721668.jpg";
+
 type Category = 'modern' | 'mix' | 'premium' | 'playground';
 
 export function Portfolio() {
@@ -18,9 +29,9 @@ export function Portfolio() {
 
   // Mock data using the same images for demo, but in real app would use different ones
   const images = {
-    modern: [modernImg, modernImg, modernImg, modernImg],
-    mix: [mixImg, mixImg, mixImg, mixImg],
-    premium: [premiumImg, premiumImg, premiumImg, premiumImg],
+    modern: [photo1, photo4, photo8, photo9, modernImg],
+    mix: [photo3, photo5, photo6, photo7, mixImg],
+    premium: [photo2, premiumImg, photo4, photo1], // Reusing some good shots for premium
     playground: [playgroundImg, playgroundImg, playgroundImg, playgroundImg],
   };
 
