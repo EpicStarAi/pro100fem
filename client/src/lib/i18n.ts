@@ -10,7 +10,7 @@ export const translations = {
     
     hero_pill: "Договір • Гарантія • Технологія основи",
     hero_h1: "Укладання тротуарної плитки та благоустрій під ключ",
-    hero_lead: "Київська область. Працюємо з будь-якими об’єктами: двори, доріжки, парковки, комерційні території. Прозорий прайс, чіткі строки, акуратна геометрія та правильні уклони.",
+    hero_lead: "Київ та Київська область. Працюємо з будь-якими об’єктами: двори, доріжки, парковки, комерційні території. Прозорий прайс, чіткі строки, акуратна геометрія та правильні уклони.",
     
     chip1: "✅ Безкоштовний виїзд та замір",
     chip2: "✅ Фіксація вартості після огляду",
@@ -23,7 +23,7 @@ export const translations = {
     trust1_s: "укладання плитки",
     trust2_b: "від 1500 грн/шт",
     trust2_s: "монтаж люків",
-    trust3_b: "Київська область",
+    trust3_b: "Київ та область",
     trust3_s: "виїзд та консультація",
     
     side_title: "Швидка заявка",
@@ -60,7 +60,7 @@ export const translations = {
     
     svc6_t: "Благоустрій територій",
     svc6_d: "Комплексні роботи: основа, водовідвід, покриття, бордюри.",
-    svc6_p: "Київська область",
+    svc6_p: "Київ та область",
 
     svc7_t: "Дитячі майданчики",
     svc7_d: "Безпечне гумове покриття, яскрава плитка, встановлення обладнання.",
@@ -97,7 +97,7 @@ export const translations = {
     contact_p: "Зв’яжіться з нами — відповімо та запропонуємо рішення під ваш бюджет.",
     contact_left_t: "Зв’язок",
     contact_geo_k: "Регіон:",
-    contact_geo_v: "Київська область",
+    contact_geo_v: "Київ та Київська область",
     contact_phone_k: "Телефон:",
     contact_call: "Подзвонити",
     contact_tg: "Написати в Telegram",
@@ -117,7 +117,7 @@ export const translations = {
     
     hero_pill: "Contract • Warranty • Base Technology",
     hero_h1: "Paving and Turnkey Landscaping",
-    hero_lead: "Kyiv region. We work with any objects: yards, paths, parking lots, commercial areas. Transparent pricing, clear deadlines, neat geometry and correct slopes.",
+    hero_lead: "Kyiv and Kyiv Region. We work with any objects: yards, paths, parking lots, commercial areas. Transparent pricing, clear deadlines, neat geometry and correct slopes.",
     
     chip1: "✅ Free visit and measurement",
     chip2: "✅ Price fixed after inspection",
@@ -130,7 +130,7 @@ export const translations = {
     trust1_s: "paving installation",
     trust2_b: "from 1500 UAH/pc",
     trust2_s: "manhole installation",
-    trust3_b: "Kyiv Region",
+    trust3_b: "Kyiv & Region",
     trust3_s: "visit & consultation",
     
     side_title: "Quick Request",
@@ -167,7 +167,7 @@ export const translations = {
     
     svc6_t: "Landscaping",
     svc6_d: "Complex works: base, drainage, coating, curbs.",
-    svc6_p: "Kyiv Region",
+    svc6_p: "Kyiv & Region",
 
     svc7_t: "Children's Playgrounds",
     svc7_d: "Safe rubber coating, bright tiles, equipment installation.",
@@ -204,7 +204,7 @@ export const translations = {
     contact_p: "Contact us - we will answer and offer a solution for your budget.",
     contact_left_t: "Communication",
     contact_geo_k: "Region:",
-    contact_geo_v: "Kyiv Region",
+    contact_geo_v: "Kyiv and Kyiv Region",
     contact_phone_k: "Phone:",
     contact_call: "Call",
     contact_tg: "Write in Telegram",
