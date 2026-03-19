@@ -1,0 +1,20 @@
+{
+  "name": "pro100fem",
+  "version": "1.0.0",
+  "description": "Pro100Fem - Node.js + React app",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build",
+    "install-all": "npm install && cd client && npm install",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
