@@ -1,16 +1,3 @@
-import React from 'react';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Pro100Fem</h1>
-        <p>Ласкаво просимо на Pro100Fem!</p>
-        <p>Your platform is live.</p>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+// This file intentionally left as a redirect to App.tsx
+// The main App component is in App.tsx
+export { default } from './App.tsx';
